@@ -1,8 +1,8 @@
-Pour cloner le repository, jai taper sur le terminal :
+Pour cloner le repository, j’ai taper sur le terminal :
 
 $git clone https://github.com/aicha-camara/git-begins.git
 
-le dossier ce cree sur le pc je deplace la documentation a l’interieur puis :
+le dossier ce crée sur le pc je déplace la documentation a l’intérieur puis :
 
 $ git add . 
 $ git commit -m "git begin"
@@ -10,7 +10,7 @@ $ git remote add origin https://github.com/aicha-camara/git-begins.git
 $ git branch -M main
 $ git push -u origin main
 
-Il faudra rentrer ces identifiant et il apparaitra dans GIT HUB
+Il faudra rentrer ces identifiant et il apparaîtra dans GIT HUB
 
 Les  3 commandes de push sont: 
  - git push origin [branche]
@@ -21,3 +21,13 @@ Pour la commande il faut :
 $ git pull
 $ git fetch
 $ git merge
+
+Pour créer une nouvelle branche il faut faire la commande :
+
+$git branch «nom de la branche»
+puis pour basculer à l’intérieur on utilise:
+$c git checkout -b «nom de la branche»
+
+Sinon il existe une commande pour créer une branche et basculer directement à l’intérieur : 
+
+$ git checkout -b «nom de la branche»
