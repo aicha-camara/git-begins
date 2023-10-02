@@ -25,8 +25,11 @@ $ git merge
 Pour créer une nouvelle branche il faut faire la commande :
 
 $git branch «nom de la branche»
+
 puis pour basculer à l’intérieur on utilise:
-$c git checkout -b «nom de la branche»
+
+$git checkout -b «nom de la branche»
+
 
 Sinon il existe une commande pour créer une branche et basculer directement à l’intérieur : 
 
