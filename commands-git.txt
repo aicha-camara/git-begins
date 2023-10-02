@@ -1,12 +1,16 @@
-Pour cloner le repository, jai taper sur le terminal :
-$ git init 
+﻿Pour cloner le repository, jai taper sur le terminal :
+
+$git clone https://github.com/aicha-camara/git-begins.git
+
+le dossier ce crée sur le pc je déplace la documentation à l’intérieur puis :
+
 $ git add . 
-$ git commit -m "Shell project report"
+$ git commit -m "git begin"
 $ git remote add origin https://github.com/aicha-camara/git-begins.git
 $ git branch -M main
 $ git push -u origin main
 
-Il faudra rentrer ces identifiant et il apparaitra dans GIT HUB
+Il faudra rentrer ces identifiant et il apparaîtra dans GIT HUB
 
 Les  3 commandes de push: 
  - git push origin [branche]
