@@ -16,3 +16,8 @@ Les  3 commandes de push sont:
  - git push origin [branche]
  - git push -u origin [branche]
  - git push --all
+
+Pour la commande il faut :
+$ git pull
+$ git fetch
+$ git merge
